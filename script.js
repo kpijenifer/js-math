@@ -4,33 +4,33 @@ console.log(Math.round(4.6));
 
 //math cell
 
-console.log(Math.ceil(4));
+console.log(Math.ceil(4.4));
 
 //math floor
 
-console.log(Math.floor(4.4));
+console.log(Math.floor(4.7));
 
 
 //math trunc
 
-console.log(Math.trunc(4.6));
+console.log(Math.trunc(4.7));
 
 //math sign
-console.log(Math.sign(-4.9));
+console.log(Math.sign(4.9));
 
 //math power
-console.log(Math.pow(5,3));
+console.log(Math.pow(5,4));
 
 
-//math sort
+//math sqrt
 
 console.log(Math.sqrt(64));
 
 //math absoulte
 
-console.log(Math.abs(-6.7));
+console.log(Math.abs(-125));
 
-//math sign
+//math sin
 console.log(Math.sin(30)); 
 
 //math cos
@@ -49,9 +49,39 @@ console.log(Math.random());
 console.log(Math.log(15));
 
 //math.log2
-console.log(Math.log2(64));
+console.log(Math.log2(32));
 
 
 //math log10
 console.log(Math.log10(1000));
+
+
+function a(){
+	alert("danger");
+	
+	let b=document.getElementById("jeni").innerHTML="danger";
+}
+
+function b(){
+let t=document.getElementById("karthik");
+t.style.backgroundColor="red";	
+}
+
+function c(){
+ let k=5+8;
+ document.getElementById("mani").innerHTML=k;
+	
+}
+function d(){
+let x=document.getElementById("caleb");
+ x.style.backgroundColor="yellow"; 
+ x.style.fontSize="100px";
+	}
+
+
+
+
+
+
+
 
