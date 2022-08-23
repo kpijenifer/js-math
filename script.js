@@ -19,7 +19,7 @@ console.log(Math.trunc(4.7));
 console.log(Math.sign(4.9));
 
 //math power
-console.log(Math.pow(5,4));
+console.log(Math.pow(5,2));
 
 
 //math sqrt
@@ -36,7 +36,7 @@ console.log(Math.sin(30));
 //math cos
 
 console.log(Math.cos(30));
-
+  
 //math.max
 console.log(Math.max(10,20,30,40));
 //math min
@@ -77,6 +77,13 @@ let x=document.getElementById("caleb");
  x.style.backgroundColor="yellow"; 
  x.style.fontSize="100px";
 	}
+	
+	
+	
+	let num = document.getElementsByName("animal").length;
+document.getElementById("demo").innerHTML = num;
+	
+
 
 
 
