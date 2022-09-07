@@ -1,105 +1,220 @@
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*part-4*/
+	
+	*{  
+    list-style:none; 
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 
-.overall{
-	height:700px;
-	width:100%;
 	}
-	.container{
-		margin:auto;
-		outline:2px solid red;
-		width:80%;
-	}
-
-
-.Featurs h1{
-	text-align:center;
-	font-size:20px;
-
-}
-.Featurs p{
-	text-align:center;
-	font-family:"Open sans",sans-serif;
-}
-.simply ul li{
-	font-family:"Open sans",sans-serif;
-	list-style:none;
 	
 	
-	
-}
-
-}
-.simply ul li i{
-	color:blue;
-}
-.popular{
-	display:flex;
-	width:100%;
-}
-.version{
-	width:50%
-}
-.version img{
-	height:280px;
-	width:100%
-}
-.simply{
-	
-}
-.always{
-	width:50%;
-}
-.always img{
-	height:280px;
-	width:100%;
-	
-}
-.entry{
-	display:flex;
-}
-
-
-
-@media(min-width:300px){
-	.popular{
-		display:inline-block;
-	}
-	.version{
-		width:100%;
-	}
-	.entry{
-		display:inline-block;
+	@media(min-width:300px){
+		.pricing{
+			height:auto;
+			width:100%
+		}
 		
-	}
-	.always{
-		width:100%;
-	}
-	.translation{
-		padding:30px;
-	}
-}
-
-@media(min-width:754px){
-	.version{
-		width:50%;
-		display:inline-block;
-		float:left;
-	}
-	.simply{
-		width:50%;
-		display:inline-block;
-
-	}
-	.translation{
-		width:50%;
-		display:inline-block;
-		float:left;
+		.pricing-element h1{
+			font-size:30px;
+			text-align:center;
+			padding:20px;
+		}
+		.pricing-element p{
+			font-size:20px;
+			text-align:center;
+		}
+		.pricing-content{
+			width:100%;
+			display:flex;
+			flex-direction:column;
+			padding:40px;
+		}
+		.free{
+		    text-align:center;
+			padding:30px;
+			width:100%;
 		
+		}
+		.free h1{
+			font-size:60px;
+			padding:30px;
+		}
+		.free sup{
+			font-size:20px;
+			color:blue;
+			padding:10px;
+		}
+		.free sub{
+			font-size:15px;
+			color:lightgray;
+			padding:10px;
+		}
+		.free p{
+			font-size:20px;
+			padding:25px;
+		}
+		.free button{
+			font-size:20px;
+			border-color:blue;
+			color:blue;
+			padding:10px;
+		}
+		.span{
+			text-decoration:line-through;
+		}
+		
+		.business{
+     
+			text-align:center;
+			padding:30px;
+			width:100%;
+			background-color:blue;
+		
+		}
+		.business h1{
+			font-size:60px;
+			padding:30px;
+		}
+		.business sup{
+			font-size:20px;
+			color:white;
+			padding:10px;
+		}
+		.business sub{
+			font-size:15px;
+			color:lightgray;
+			padding:10px;
+		}
+		.business p{
+			font-size:20px;
+			padding:25px;
+		}
+		.business button{
+			font-size:20px;
+			border-color:white;
+			color:blue;
+			padding:10px;
+		}
+		.span{
+			text-decoration:line-through;
+		}
+		.developer{
+			text-align:center;
+			padding:30px;
+			width:100%;
+			
+		}
+		.developer h1{
+			font-size:60px;
+		    padding:20px;
+		}
+		.developer sup{
+			font-size:20px;
+			color:blue;
+		
+		}
+		.developer sub{
+			font-size:15px;
+			color:lightgray;
+			padding:10px;
+		}
+		.developer p{
+			font-size:20px;
+			padding:25px;
+		}
+		.developer button{
+			font-size:20px;
+			border-color:blue;
+			color:blue;
+			padding:10px;
+		}
 	}
-	.always{
-		width:50%;
-		display:inline-block;
 	
+	
+	
+	@media(min-width:764px){
+		.pricing-content{
+
+			width:100%;	
+		}
+		.free{
+			width:33%;
+		}
+		.business{
+			width:33%;
+		}
+		.developer{
+			width:33%;
+		}
 	}
 	
-}
+	
+	
+	@media(min-width:992px){
+         .pricing{
+			 height:auto;
+			 width:100%;
+			 
+		 }
+		 .pricing-element h1{
+			 font-size:30px;
+		 }
+		 .pricing-element p{
+			 font-size:20px;
+		 }
+		 .pricing-content{
+			 width:100%;
+			 display:flex;
+			 flex-direction:row;
+		 }
+		 .free h1{
+			 font-size:30px;
+		 }
+		 .free button{
+			 font-size:20px;
+		 }
+		 .business button{
+			 font-size:20px;
+		 }
+		 .developer button{
+			 font-size:20px;
+		 }
+		 .business h1{
+			 font-size:30px;
+		 }
+		 .developer h1{
+			 font-size:30px;
+		 }
+		 	
+	}
+			 
+		 
+	
+		
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+			
