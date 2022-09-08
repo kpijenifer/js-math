@@ -23,28 +23,29 @@
 	@media(min-width:300px){
 		.pricing{
 			height:auto;
-			width:100%
+			width:100%;
 		}
 		
 		.pricing-element h1{
-			font-size:30px;
+			font-size:50px;
 			text-align:center;
 			padding:20px;
 		}
 		.pricing-element p{
-			font-size:20px;
+			font-size:30px;
 			text-align:center;
 		}
 		.pricing-content{
-			width:100%;
+		
+			padding:40px;
+			text-align:center;
 			display:flex;
 			flex-direction:column;
-			padding:40px;
 		}
 		.free{
 		    text-align:center;
 			padding:30px;
-			width:100%;
+			max-width:100%;
 		
 		}
 		.free h1{
@@ -79,7 +80,7 @@
      
 			text-align:center;
 			padding:30px;
-			width:100%;
+	
 			background-color:blue;
 		
 		}
@@ -113,7 +114,6 @@
 		.developer{
 			text-align:center;
 			padding:30px;
-			width:100%;
 			
 		}
 		.developer h1{
@@ -143,22 +143,7 @@
 	}
 	
 	
-	
-	@media(min-width:764px){
-		.pricing-content{
 
-			width:100%;	
-		}
-		.free{
-			width:33%;
-		}
-		.business{
-			width:33%;
-		}
-		.developer{
-			width:33%;
-		}
-	}
 	
 	
 	
@@ -199,6 +184,41 @@
 		 }
 		 	
 	}
+	
+	
+	
+	
+	@media(min-width: 764px){
+		.pricing-content{
+          width:100%;
+          height:auto;
+		  display:flex;
+		  justify-content:space-between;
+		  flex-direction:row;
+		  flex-wrap:wrap;
+    		 
+		}
+		.free{
+	    width:48%
+		}
+		.business{
+		  width:48%
+		}
+		.developer{
+          width:48%
+		}
+	
+			
+	}
+	
+	
+	
+	
+	
+	
+	
+		
+	
 			 
 		 
 	
