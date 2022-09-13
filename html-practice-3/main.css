@@ -1,0 +1,49 @@
+
+@media(min-width:300px){
+	.jeni{
+		height:400px;
+		width:800px;
+		outline:2px solid red;
+		padding:20px;
+		margin-top:20px;
+		font-size:30px;
+		text-align:center;
+
+	}
+	.kalep{
+		height:400px;
+		width:800px;
+		outline:2px solid red;
+		padding:20px;
+		margin-top:20px;
+		font-size:30px;
+		text-align:center;
+
+	}
+	.rajesh{
+		height:400px;
+		width:800px;
+		outline:2px solid red;
+		padding:20px;
+		margin-top:20px;
+		font-size:30px;
+		text-align:center;
+
+	}
+	.arun{
+		height:400px;
+		width:800px;
+		outline:2px solid red;
+		padding:20px;
+		margin-top:20px;
+		font-size:30px;
+		text-align:center;
+
+	}
+	.container{
+	
+		text-align:center;
+		padding:40px;
+	}
+	
+}
